@@ -1,0 +1,58 @@
+body {
+	color: white;
+	font-family: 'Robato', sans-serif;
+	text-align: center;
+	text-shadow: 0 .05rem .1rem rgba(0,0,0,.5);
+	color: rgb(66,69,86);
+	background-image :url('https://images.fineartamerica.com/images/artworkimages/mediumlarge/3/brooklyn-bridge-from-dumbo-nyc-victor-ambro.jpg');
+	background-size: cover;
+	font-weight = 100;
+}
+.flex-container {
+	display: flex;
+	justify-content: center;
+	flex-direction: column;
+	height: 80%;
+	font-size: 19px;
+}
+
+h1{
+	margin: 0;
+	font-size = 500px;
+	line-height: 400px;
+	font-weight = 100;
+	color: white;
+}
+p {
+	margin: 0;
+	font-size: 30px;
+	color: white;
+}
+.form {
+	
+	line-height : 1.5;
+	border: none;
+	border-bottom: 1px solid;
+	margin-top: 10px solid;
+	width = 800px;
+	font-size: 10emm;
+}
+
+button {
+	line-height: 0.9;
+	border: none;
+	border:3px solid white;
+	font-size: 1.5em;
+	color: rgb(66,69,86);
+	padding: 5px 10px;
+	background: rgba(255,255,255,1.0);
+	border-radius: 5px;
+	opacity: 0.9;
+}
+input[type=text]: focus{
+	outline:none;
+}
+
+button:hover{
+	opacity: 1;
+}
